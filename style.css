@@ -1,0 +1,40 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+}
+.container
+{
+    text-align: center;
+}
+h2{
+    background-color:black ;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.color
+{
+    color:blue;
+    font-size: 20px;
+}
+.btn
+{
+    background-color:transparent;
+    padding:10px;
+    border:2px solid black;
+    outline:none;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.btn:hover
+{
+    background-color:#222;
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
